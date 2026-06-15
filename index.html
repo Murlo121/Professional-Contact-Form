@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contact</title>
+      <link rel="stylesheet" href="assets/styles.css">
+   </head>
+   <body>
+      <form>
+         <fieldset>
+            <legend>Meu Formulário</legend>
+            <div>
+               <input type="text" name="nome" placeholder="informe seu nome">
+            </div>
+            <div>
+               <input type="text" name="email" placeholder="informe seu email">
+            </div>
+            <div>
+               <select name="lista" >
+                  <option disabled selected="Informe sua idade">informe sua idade</option>
+                  <option value="-18">-18</option>
+                  <option value="18-40">18-40</option>
+                  <option value="40+">40+</option>
+               </select>
+            </div>
+            <h2>Qual sua cidade?</h2>
+            <div class="radio">  
+               <input type="radio" value="porto_alegre"><span>Porto Alegre</span>
+               <input type="radio" value="florianopolis"><span>Florianopolis</span>
+               <input type="radio" value="curitiba"><span>Curitiba</span>
+            </div>
+            <h2>Você atualmente está empregado?</h2>
+            <div class="radio2">  
+               <input type="radio" value="yes"><span>Sim</span>
+               <input type="radio" value="no"><span>Não</span>
+               <input type="radio" value="idk"><span>Prefiro não informar</span>
+            </div>
+            <h2>Qual sua área de atuação?</h2>
+            <div class="radio2">  
+               <input type="checkbox" value="yes"><span>Back-end</span>
+               <input type="checkbox" value="no"><span>Front-end</span>
+               <input type="checkbox" value="no"><span>SQL</span>
+            </div>
+            <div>
+               <textarea placeholder="Relate sua experiência na área"></textarea>
+            </div>
+            <div>
+               <input type="submit" name="action" value="Enviar">
+            </div>
+         </fieldset>
+      </form>
+   </body>
+</html>
